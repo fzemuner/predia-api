@@ -1,0 +1,20 @@
+### CHAT ANSWER QUESTION
+POST http://localhost:3001/answer-question
+Content-Type: application/json
+#Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MmQ0NDBhYjczYzJmMmQ1YTE4Njk5YyIsIm5hbWUiOiJBZG1pbiBBbHBhciIsImVtYWlsIjoiYWRtaW5AYWxwYXIuY29tLmJyIiwiYXZhdGFyVXJsIjoiL2ltYWdlcy9hdmF0YXIvMS5qcGciLCJpc1Jlc2V0UGFzc3dvcmQiOmZhbHNlLCJpYXQiOjE3MzcxMjI0NzIsImV4cCI6MTczNzE1MTI3Mn0.FoLZ4CQha7zTpxufoN4aUytlL8yZ_JPxew_gHwrM8MY
+
+{
+    "tenantId": "TENANT-123",
+    "question": "Qual a cor?"
+}
+
+
+### CHAT ANSWER QUESTION
+POST http://localhost:3001/answer-question
+Content-Type: application/json
+#Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MmQ0NDBhYjczYzJmMmQ1YTE4Njk5YyIsIm5hbWUiOiJBZG1pbiBBbHBhciIsImVtYWlsIjoiYWRtaW5AYWxwYXIuY29tLmJyIiwiYXZhdGFyVXJsIjoiL2ltYWdlcy9hdmF0YXIvMS5qcGciLCJpc1Jlc2V0UGFzc3dvcmQiOmZhbHNlLCJpYXQiOjE3MzcxMjI0NzIsImV4cCI6MTczNzE1MTI3Mn0.FoLZ4CQha7zTpxufoN4aUytlL8yZ_JPxew_gHwrM8MY
+
+{
+    "tenantId": "TENANT-456",
+    "question": "Qual o número mágico para divulgação em 24/04/2025?"
+}

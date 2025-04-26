@@ -1,0 +1,36 @@
+### Injest document PDF
+POST http://localhost:3001/documents/injest
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="tenantId"
+
+TENANT-123
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="teste123.txt"
+Content-Type: text/xml
+
+< ./attach/teste123.txt
+--boundary--
+
+
+### Injest document TXT
+POST http://localhost:3001/documents/injest
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="tenantId"
+
+TENANT-456
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="teste456.txt"
+Content-Type: text/plain
+
+< ./attach/teste456.txt
+--boundary--
+
+
+
+
