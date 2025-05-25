@@ -23,7 +23,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@huggingface/inference": "^2.8.1",
+    "@huggingface/inference": "^3.14.0",
     "@langchain/community": "^0.3.41",
     "@langchain/groq": "^0.2.2",
     "@nestjs/common": "^11.0.1",
