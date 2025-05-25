@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "@huggingface/inference": "^3.14.0",
-    "@langchain/community": "^0.3.41",
     "@langchain/groq": "^0.2.2",
     "@nestjs/common": "^11.0.1",
     "@nestjs/config": "^4.0.2",
